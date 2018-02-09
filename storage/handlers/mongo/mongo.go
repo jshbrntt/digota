@@ -179,7 +179,7 @@ func (h *handler) Insert(obj object.Interface) error {
 	defer s.Close()
 
 	if v, ok := obj.(object.IdSetter); ok {
-		u, err := uuid.NewV4()
+		u, _ := uuid.NewV4()
 		v.SetId(u.String())
 	}
 

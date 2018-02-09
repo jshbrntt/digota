@@ -47,7 +47,7 @@ func (p *provider) Charge(req *paymentpb.ChargeRequest) (*paymentpb.Charge, erro
 		return nil, errors.New("expected charge error")
 	}
 
-	u, err := uuid.NewV4()
+	u, _ := uuid.NewV4()
 
 	return &paymentpb.Charge{
 		ProviderId:       p.ProviderId(),
@@ -67,7 +67,7 @@ func (p *provider) Refund(ch string, amount uint64, currency paymentpb.Currency,
 		return nil, errors.New("expected refund error")
 	}
 
-	u, err := uuid.NewV4()
+	u, _ := uuid.NewV4()
 
 	return &paymentpb.Refund{
 		ProviderRefundId: u.String(),
