@@ -18,8 +18,8 @@ package mongo
 
 import (
 	"fmt"
-	"github.com/digota/digota/config"
-	"github.com/digota/digota/storage/object"
+	"github.com/synthecypher/digota/config"
+	"github.com/synthecypher/digota/storage/object"
 	"github.com/satori/go.uuid"
 	log "github.com/sirupsen/logrus"
 	"google.golang.org/grpc/codes"
