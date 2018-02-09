@@ -19,7 +19,7 @@ package main
 import (
 	"crypto/tls"
 	"crypto/x509"
-	"github.com/digota/digota/sdk"
+	"github.com/synthecypher/digota/sdk"
 	"google.golang.org/grpc"
 	"google.golang.org/grpc/credentials"
 	"io/ioutil"

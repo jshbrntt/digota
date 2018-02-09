@@ -17,7 +17,7 @@
 package zookeeper
 
 import (
-	"github.com/digota/digota/config"
+	"github.com/synthecypher/digota/config"
 	"github.com/satori/go.uuid"
 	"testing"
 	"time"

@@ -17,8 +17,8 @@
 package authentication
 
 import (
-	"github.com/digota/digota/acl"
-	"github.com/digota/digota/client"
+	"github.com/synthecypher/digota/acl"
+	"github.com/synthecypher/digota/client"
 	"github.com/grpc-ecosystem/go-grpc-middleware"
 	"golang.org/x/net/context"
 	"google.golang.org/grpc"

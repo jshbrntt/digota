@@ -17,11 +17,11 @@
 package acl
 
 import (
-	"github.com/digota/digota/client"
-	"github.com/digota/digota/order"
-	"github.com/digota/digota/payment"
-	"github.com/digota/digota/product"
-	"github.com/digota/digota/sku"
+	"github.com/synthecypher/digota/client"
+	"github.com/synthecypher/digota/order"
+	"github.com/synthecypher/digota/payment"
+	"github.com/synthecypher/digota/product"
+	"github.com/synthecypher/digota/sku"
 	"golang.org/x/net/context"
 	"regexp"
 )

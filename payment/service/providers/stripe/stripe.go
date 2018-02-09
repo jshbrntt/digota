@@ -17,9 +17,9 @@
 package stripe
 
 import (
-	"github.com/digota/digota/config"
-	"github.com/digota/digota/payment/errors"
-	"github.com/digota/digota/payment/paymentpb"
+	"github.com/synthecypher/digota/config"
+	"github.com/synthecypher/digota/payment/errors"
+	"github.com/synthecypher/digota/payment/paymentpb"
 	"github.com/sirupsen/logrus"
 	"github.com/stripe/stripe-go"
 	"github.com/stripe/stripe-go/charge"

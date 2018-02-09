@@ -17,7 +17,7 @@
 package payment
 
 import (
-	"github.com/digota/digota/payment/paymentpb"
+	"github.com/synthecypher/digota/payment/paymentpb"
 	"google.golang.org/grpc"
 	"regexp"
 )

@@ -17,7 +17,7 @@
 package locker
 
 import (
-	"github.com/digota/digota/config"
+	"github.com/synthecypher/digota/config"
 	"reflect"
 	"testing"
 )

@@ -17,14 +17,14 @@
 package service
 
 import (
-	"github.com/digota/digota/locker"
-	paymentInterface "github.com/digota/digota/payment"
-	"github.com/digota/digota/payment/paymentpb"
-	"github.com/digota/digota/payment/service/providers"
-	"github.com/digota/digota/storage"
-	"github.com/digota/digota/storage/object"
-	"github.com/digota/digota/util"
-	"github.com/digota/digota/validation"
+	"github.com/synthecypher/digota/locker"
+	paymentInterface "github.com/synthecypher/digota/payment"
+	"github.com/synthecypher/digota/payment/paymentpb"
+	"github.com/synthecypher/digota/payment/service/providers"
+	"github.com/synthecypher/digota/storage"
+	"github.com/synthecypher/digota/storage/object"
+	"github.com/synthecypher/digota/util"
+	"github.com/synthecypher/digota/validation"
 	"golang.org/x/net/context"
 	"google.golang.org/grpc/codes"
 	"google.golang.org/grpc/status"

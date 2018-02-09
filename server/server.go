@@ -19,32 +19,32 @@ package server
 // load services first
 import (
 	// register order service
-	_ "github.com/digota/digota/order/service"
+	_ "github.com/synthecypher/digota/order/service"
 	// register payment service
-	_ "github.com/digota/digota/payment/service"
+	_ "github.com/synthecypher/digota/payment/service"
 	// register product service
-	_ "github.com/digota/digota/product/service"
+	_ "github.com/synthecypher/digota/product/service"
 	// register sku service
-	_ "github.com/digota/digota/sku/service"
+	_ "github.com/synthecypher/digota/sku/service"
 )
 
 import (
 	"crypto/tls"
 	"crypto/x509"
-	"github.com/digota/digota/acl"
-	"github.com/digota/digota/client"
-	"github.com/digota/digota/config"
-	"github.com/digota/digota/locker"
-	"github.com/digota/digota/middleware/authentication"
-	"github.com/digota/digota/middleware/logger"
-	"github.com/digota/digota/middleware/recovery"
-	"github.com/digota/digota/order"
-	"github.com/digota/digota/payment"
-	"github.com/digota/digota/payment/service/providers"
-	"github.com/digota/digota/product"
-	"github.com/digota/digota/sku"
-	"github.com/digota/digota/storage"
-	"github.com/digota/digota/util"
+	"github.com/synthecypher/digota/acl"
+	"github.com/synthecypher/digota/client"
+	"github.com/synthecypher/digota/config"
+	"github.com/synthecypher/digota/locker"
+	"github.com/synthecypher/digota/middleware/authentication"
+	"github.com/synthecypher/digota/middleware/logger"
+	"github.com/synthecypher/digota/middleware/recovery"
+	"github.com/synthecypher/digota/order"
+	"github.com/synthecypher/digota/payment"
+	"github.com/synthecypher/digota/payment/service/providers"
+	"github.com/synthecypher/digota/product"
+	"github.com/synthecypher/digota/sku"
+	"github.com/synthecypher/digota/storage"
+	"github.com/synthecypher/digota/util"
 	"github.com/grpc-ecosystem/go-grpc-middleware"
 	"github.com/grpc-ecosystem/go-grpc-middleware/logging/logrus"
 	"github.com/grpc-ecosystem/go-grpc-middleware/recovery"

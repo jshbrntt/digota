@@ -17,10 +17,10 @@
 package providers
 
 import (
-	"github.com/digota/digota/config"
-	"github.com/digota/digota/payment/paymentpb"
-	"github.com/digota/digota/payment/service/providers/internalTestOnly"
-	"github.com/digota/digota/payment/service/providers/stripe"
+	"github.com/synthecypher/digota/config"
+	"github.com/synthecypher/digota/payment/paymentpb"
+	"github.com/synthecypher/digota/payment/service/providers/internalTestOnly"
+	"github.com/synthecypher/digota/payment/service/providers/stripe"
 	log "github.com/sirupsen/logrus"
 	"sync"
 )

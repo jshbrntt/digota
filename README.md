@@ -1,5 +1,5 @@
 <a href="http://digota.com/">![Logo](http://i.imgur.com/hqEKC51.png)</a>
-## Digota - ecommerce microservice [![Go Report Card](https://goreportcard.com/badge/github.com/digota/digota)](https://goreportcard.com/report/github.com/digota/digota) [![Build Status](https://travis-ci.org/digota/digota.svg?branch=master)](https://travis-ci.org/digota/digota) [![Coverage Status](https://coveralls.io/repos/github/digota/digota/badge.svg?branch=master)](https://coveralls.io/github/digota/digota?branch=master) [![Gitter chat](https://badges.gitter.im/gitterHQ/gitter.png)](https://gitter.im/digota/Lobby)
+## Digota - ecommerce microservice [![Go Report Card](https://goreportcard.com/badge/github.com/synthecypher/digota)](https://goreportcard.com/report/github.com/synthecypher/digota) [![Build Status](https://travis-ci.org/digota/digota.svg?branch=master)](https://travis-ci.org/digota/digota) [![Coverage Status](https://coveralls.io/repos/github/digota/digota/badge.svg?branch=master)](https://coveralls.io/github/digota/digota?branch=master) [![Gitter chat](https://badges.gitter.im/gitterHQ/gitter.png)](https://gitter.im/digota/Lobby)
 
 [Digota](http://digota.com) is ecommerce microservice built to be the modern standard for ecommerce systems.It is based on grpc,protocol-buffers and http2 provides clean, powerful and secured RPC interface. 
 
@@ -17,16 +17,16 @@ ___TLDR; scalable ecommerce microservice.___
 * Database 
   * mongodb > 3.2
   * redis (TBD)
-  * postgresql (TBD - [#2](https://github.com/digota/digota/issues/2))
+  * postgresql (TBD - [#2](https://github.com/synthecypher/digota/issues/2))
 * Lock server (default is in-memory locker)
   * zookeeper 
   * redis !! (thanks @Gerifield)
-  * etcd (TBD - [#3](https://github.com/digota/digota/issues/3))
+  * etcd (TBD - [#3](https://github.com/synthecypher/digota/issues/3))
 
 #### Installation
 
 ```bash
-$ go get -u github.com/digota/digota
+$ go get -u github.com/synthecypher/digota
 ```
 
 #### Run
@@ -34,7 +34,7 @@ $ go get -u github.com/digota/digota
 ```bash
 $ digota --port=8080 --config=/etc/digota/digota.yml
 ```
-Check out this [example](https://github.com/digota/digota/blob/master/_example/config/digota.yaml) to understand how to set up your config.
+Check out this [example](https://github.com/synthecypher/digota/blob/master/_example/config/digota.yaml) to understand how to set up your config.
 
 Flags:
 
@@ -52,7 +52,7 @@ Key benefit of using grpc is the native support of major languages (`C++`,`Java`
 Learn How to compile your client right [here](https://grpc.io/docs/quickstart/), You can use you `Makefile` as well.
 
 Complied clients:
-1. [php](https://github.com/digota/digota-php)
+1. [php](https://github.com/synthecypher/digota-php)
 
 ## Flexible payment gateways
 
@@ -63,7 +63,7 @@ Supported gateways for now:
 2. Braintree
 
 > Are you payment provider ? 
-> Just implement the following [interface](https://github.com/digota/digota/blob/master/payment/service/providers/providers.go#L32) and PR you changes.
+> Just implement the following [interface](https://github.com/synthecypher/digota/blob/master/payment/service/providers/providers.go#L32) and PR you changes.
 
 ```yaml
 ...
@@ -118,7 +118,7 @@ clients:
   - WRITE
 ```
 
-Follow [these](https://github.com/digota/digota/tree/master/_example/auth) steps to create your CA and Certificates.
+Follow [these](https://github.com/synthecypher/digota/tree/master/_example/auth) steps to create your CA and Certificates.
 
 ## Money & Currencies
 
@@ -150,7 +150,7 @@ service Payment {
 }
 ```
 
-___Full service [definition](https://github.com/digota/digota/blob/master/payment/paymentpb/payment.proto).___
+___Full service [definition](https://github.com/synthecypher/digota/blob/master/payment/paymentpb/payment.proto).___
 
 Payment service is used for credit/debit card charge and refund, it is provides support of multiple 
 payment providers as well. Usually there is no use in this service externally if you are using `order` functionality.
@@ -167,7 +167,7 @@ service Order {
 }
 ```
 
-___Full service [definition](https://github.com/digota/digota/blob/master/order/orderpb/order.proto).___
+___Full service [definition](https://github.com/synthecypher/digota/blob/master/order/orderpb/order.proto).___
 
 Order service helps you deal with structured purchases ie `order`. Naturally order is a collection of purchasable
 products,discounts,invoices and basic customer information.
@@ -184,7 +184,7 @@ service Product {
 }
 ```
 
-___Full service [definition](https://github.com/digota/digota/blob/master/product/productpb/product.proto).___
+___Full service [definition](https://github.com/synthecypher/digota/blob/master/product/productpb/product.proto).___
 
 Product service helps you manage your products, product represent collection of purchasable items(sku), physical or digital.
 
@@ -200,7 +200,7 @@ service Sku {
 }
 ```
 
-___Full service [definition](https://github.com/digota/digota/blob/master/sku/skupb/sku.proto).___
+___Full service [definition](https://github.com/synthecypher/digota/blob/master/sku/skupb/sku.proto).___
 
 Sku service helps you manage your product Stock Keeping Units(SKU), sku represent specific product configuration such as attributes, currency and price.
 
@@ -298,7 +298,7 @@ GNU Affero General Public License for more details.
 You should have received a copy of the GNU Affero General Public License
 along with this program.  If not, see <http://www.gnu.org/licenses/>.
 ```
-You can find the complete license file [here](https://github.com/digota/digota/blob/master/LICENSE), for any questions regarding the license please [contact](https://github.com/digota/digota#contact) us.
+You can find the complete license file [here](https://github.com/synthecypher/digota/blob/master/LICENSE), for any questions regarding the license please [contact](https://github.com/synthecypher/digota#contact) us.
 
 ## Contact
 For any questions or inquiries please contact ___yaron@digota.com___

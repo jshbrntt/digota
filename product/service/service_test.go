@@ -15,14 +15,14 @@
 package service
 
 import (
-	_ "github.com/digota/digota/sku/service"
+	_ "github.com/synthecypher/digota/sku/service"
 )
 
 import (
-	"github.com/digota/digota/config"
-	"github.com/digota/digota/locker"
-	"github.com/digota/digota/product/productpb"
-	"github.com/digota/digota/storage"
+	"github.com/synthecypher/digota/config"
+	"github.com/synthecypher/digota/locker"
+	"github.com/synthecypher/digota/product/productpb"
+	"github.com/synthecypher/digota/storage"
 	"github.com/icrowley/fake"
 	"github.com/satori/go.uuid"
 	"golang.org/x/net/context"

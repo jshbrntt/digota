@@ -17,8 +17,8 @@
 package providers
 
 import (
-	"github.com/digota/digota/config"
-	"github.com/digota/digota/payment/paymentpb"
+	"github.com/synthecypher/digota/config"
+	"github.com/synthecypher/digota/payment/paymentpb"
 	"reflect"
 	"testing"
 )

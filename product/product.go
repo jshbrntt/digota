@@ -15,7 +15,7 @@
 package product
 
 import (
-	"github.com/digota/digota/product/productpb"
+	"github.com/synthecypher/digota/product/productpb"
 	"google.golang.org/grpc"
 	"regexp"
 )

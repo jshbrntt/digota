@@ -17,8 +17,8 @@
 package main
 
 import (
-	"github.com/digota/digota/product/productpb"
-	"github.com/digota/digota/sdk"
+	"github.com/synthecypher/digota/product/productpb"
+	"github.com/synthecypher/digota/sdk"
 	"golang.org/x/net/context"
 	"log"
 )

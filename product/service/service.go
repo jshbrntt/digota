@@ -15,13 +15,13 @@
 package service
 
 import (
-	"github.com/digota/digota/locker"
-	productInterface "github.com/digota/digota/product"
-	"github.com/digota/digota/product/productpb"
-	"github.com/digota/digota/sku"
-	"github.com/digota/digota/storage"
-	"github.com/digota/digota/storage/object"
-	"github.com/digota/digota/validation"
+	"github.com/synthecypher/digota/locker"
+	productInterface "github.com/synthecypher/digota/product"
+	"github.com/synthecypher/digota/product/productpb"
+	"github.com/synthecypher/digota/sku"
+	"github.com/synthecypher/digota/storage"
+	"github.com/synthecypher/digota/storage/object"
+	"github.com/synthecypher/digota/validation"
 	"golang.org/x/net/context"
 	"time"
 )

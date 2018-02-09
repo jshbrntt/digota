@@ -17,8 +17,8 @@
 package main
 
 import (
-	"github.com/digota/digota/sdk"
-	"github.com/digota/digota/sku/skupb"
+	"github.com/synthecypher/digota/sdk"
+	"github.com/synthecypher/digota/sku/skupb"
 	"golang.org/x/net/context"
 	"log"
 	"math/rand"

@@ -17,7 +17,7 @@
 package order
 
 import (
-	"github.com/digota/digota/order/orderpb"
+	"github.com/synthecypher/digota/order/orderpb"
 	"google.golang.org/grpc"
 	"regexp"
 )

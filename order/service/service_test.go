@@ -17,21 +17,21 @@
 package service
 
 import (
-	_ "github.com/digota/digota/product/service"
-	_ "github.com/digota/digota/sku/service"
+	_ "github.com/synthecypher/digota/product/service"
+	_ "github.com/synthecypher/digota/sku/service"
 )
 
 import (
-	"github.com/digota/digota/config"
-	"github.com/digota/digota/locker"
-	"github.com/digota/digota/order/orderpb"
-	"github.com/digota/digota/payment/paymentpb"
-	"github.com/digota/digota/payment/service/providers"
-	"github.com/digota/digota/product"
-	"github.com/digota/digota/product/productpb"
-	"github.com/digota/digota/sku"
-	"github.com/digota/digota/sku/skupb"
-	"github.com/digota/digota/storage"
+	"github.com/synthecypher/digota/config"
+	"github.com/synthecypher/digota/locker"
+	"github.com/synthecypher/digota/order/orderpb"
+	"github.com/synthecypher/digota/payment/paymentpb"
+	"github.com/synthecypher/digota/payment/service/providers"
+	"github.com/synthecypher/digota/product"
+	"github.com/synthecypher/digota/product/productpb"
+	"github.com/synthecypher/digota/sku"
+	"github.com/synthecypher/digota/sku/skupb"
+	"github.com/synthecypher/digota/storage"
 	"github.com/icrowley/fake"
 	"github.com/satori/go.uuid"
 	"golang.org/x/net/context"

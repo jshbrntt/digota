@@ -17,8 +17,8 @@
 package main
 
 import (
-	"github.com/digota/digota/order/orderpb"
-	"github.com/digota/digota/sdk"
+	"github.com/synthecypher/digota/order/orderpb"
+	"github.com/synthecypher/digota/sdk"
 	"golang.org/x/net/context"
 	"log"
 )

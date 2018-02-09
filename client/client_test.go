@@ -17,7 +17,7 @@
 package client
 
 import (
-	"github.com/digota/digota/config"
+	"github.com/synthecypher/digota/config"
 	"golang.org/x/net/context"
 	"math/big"
 	"reflect"

@@ -19,7 +19,7 @@ script:
   - go fmt $(glide nv)
   - go vet $(glide nv)
   - go test -i -race $(glide nv)
-  - overalls -project=github.com/digota/digota -covermode=count -debug
+  - overalls -project=github.com/synthecypher/digota -covermode=count -debug
   - goveralls -coverprofile=overalls.coverprofile -service=travis-ci
 notifications:
   webhooks:

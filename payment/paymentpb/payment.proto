@@ -16,7 +16,7 @@
 
 syntax = "proto3";
 
-option go_package = "github.com/digota/digota/payment/paymentpb";
+option go_package = "github.com/synthecypher/digota/payment/paymentpb";
 
 package paymentpb;
 

@@ -18,9 +18,9 @@ package storage
 
 import (
 	"errors"
-	"github.com/digota/digota/config"
-	"github.com/digota/digota/storage/handlers/mongo"
-	"github.com/digota/digota/storage/object"
+	"github.com/synthecypher/digota/config"
+	"github.com/synthecypher/digota/storage/handlers/mongo"
+	"github.com/synthecypher/digota/storage/object"
 )
 
 const (

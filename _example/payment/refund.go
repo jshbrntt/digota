@@ -17,8 +17,8 @@
 package main
 
 import (
-	"github.com/digota/digota/payment/paymentpb"
-	"github.com/digota/digota/sdk"
+	"github.com/synthecypher/digota/payment/paymentpb"
+	"github.com/synthecypher/digota/sdk"
 	"golang.org/x/net/context"
 	"log"
 )

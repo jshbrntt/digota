@@ -19,12 +19,12 @@ package main
 // prevents gofmt changes the imports order
 
 // first init
-import _ "github.com/digota/digota/config"
+import _ "github.com/synthecypher/digota/config"
 
 // standards imports
 import (
-	"github.com/digota/digota/config"
-	"github.com/digota/digota/server"
+	"github.com/synthecypher/digota/config"
+	"github.com/synthecypher/digota/server"
 	"github.com/sirupsen/logrus"
 	"gopkg.in/urfave/cli.v1"
 	"log"

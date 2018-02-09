@@ -17,8 +17,8 @@
 package mongo
 
 import (
-	"github.com/digota/digota/config"
-	"github.com/digota/digota/storage/object"
+	"github.com/synthecypher/digota/config"
+	"github.com/synthecypher/digota/storage/object"
 	"github.com/satori/go.uuid"
 	"log"
 	"reflect"

@@ -17,7 +17,7 @@
 package payment
 
 import (
-	"github.com/digota/digota/payment/paymentpb"
+	"github.com/synthecypher/digota/payment/paymentpb"
 	"golang.org/x/net/context"
 	"google.golang.org/grpc"
 	"reflect"

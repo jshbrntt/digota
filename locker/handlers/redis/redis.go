@@ -4,9 +4,9 @@ import (
 	"errors"
 	"time"
 
-	"github.com/digota/digota/storage/object"
+	"github.com/synthecypher/digota/storage/object"
 
-	"github.com/digota/digota/config"
+	"github.com/synthecypher/digota/config"
 	"github.com/garyburd/redigo/redis"
 )
 

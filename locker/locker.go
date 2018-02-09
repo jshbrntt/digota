@@ -19,11 +19,11 @@ package locker
 import (
 	"time"
 
-	"github.com/digota/digota/config"
-	"github.com/digota/digota/locker/handlers/memlock"
-	"github.com/digota/digota/locker/handlers/redis"
-	"github.com/digota/digota/locker/handlers/zookeeper"
-	"github.com/digota/digota/storage/object"
+	"github.com/synthecypher/digota/config"
+	"github.com/synthecypher/digota/locker/handlers/memlock"
+	"github.com/synthecypher/digota/locker/handlers/redis"
+	"github.com/synthecypher/digota/locker/handlers/zookeeper"
+	"github.com/synthecypher/digota/storage/object"
 )
 
 const (

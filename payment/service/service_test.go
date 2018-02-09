@@ -17,11 +17,11 @@
 package service
 
 import (
-	"github.com/digota/digota/config"
-	"github.com/digota/digota/locker"
-	"github.com/digota/digota/payment/paymentpb"
-	"github.com/digota/digota/payment/service/providers"
-	"github.com/digota/digota/storage"
+	"github.com/synthecypher/digota/config"
+	"github.com/synthecypher/digota/locker"
+	"github.com/synthecypher/digota/payment/paymentpb"
+	"github.com/synthecypher/digota/payment/service/providers"
+	"github.com/synthecypher/digota/storage"
 	"github.com/satori/go.uuid"
 	"golang.org/x/net/context"
 	"os"

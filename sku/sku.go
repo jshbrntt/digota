@@ -15,8 +15,8 @@
 package sku
 
 import (
-	"github.com/digota/digota/sku/skupb"
-	"github.com/digota/digota/util"
+	"github.com/synthecypher/digota/sku/skupb"
+	"github.com/synthecypher/digota/util"
 	"golang.org/x/net/context"
 	"google.golang.org/grpc"
 	"regexp"

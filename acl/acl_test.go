@@ -17,8 +17,8 @@
 package acl
 
 import (
-	"github.com/digota/digota/client"
-	"github.com/digota/digota/config"
+	"github.com/synthecypher/digota/client"
+	"github.com/synthecypher/digota/config"
 	"golang.org/x/net/context"
 	"math/big"
 	"regexp"

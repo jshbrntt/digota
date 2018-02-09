@@ -17,7 +17,7 @@
 package product
 
 import (
-	"github.com/digota/digota/product/productpb"
+	"github.com/synthecypher/digota/product/productpb"
 	"golang.org/x/net/context"
 	"google.golang.org/grpc"
 	"reflect"
