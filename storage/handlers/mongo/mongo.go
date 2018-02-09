@@ -179,7 +179,8 @@ func (h *handler) Insert(obj object.Interface) error {
 	defer s.Close()
 
 	if v, ok := obj.(object.IdSetter); ok {
-		v.SetId(uuid.NewV4().String())
+		u, err := uuid.NewV4()
+		v.SetId(u.String())
 	}
 
 	if v, ok := obj.(object.TimeTracker); ok {
